@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/character_details_flow"
+    app:startDestination="@id/characterDetailsFragment">
+    <dialog
+        android:id="@+id/characterDetailsFragment"
+        android:name="com.example.characterdetails.CharacterDetailsFragment"
+        android:label="fragment_details" />
+</navigation>
